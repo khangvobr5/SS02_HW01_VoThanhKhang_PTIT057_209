@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%">
+  <rect width="900" height="520" fill="rgb(15, 23, 42)" rx="8"/>
+  <rect width="900" height="38" fill="rgb(30, 41, 59)" rx="8"/>
+  <circle cx="20" cy="19" r="6" fill="rgb(239, 68, 68)"/>
+  <circle cx="38" cy="19" r="6" fill="rgb(245, 158, 11)"/>
+  <circle cx="56" cy="19" r="6" fill="rgb(34, 197, 94)"/>
+  <text x="350" y="24" fill="rgb(148, 163, 184)" font-family="Segoe UI, -apple-system, sans-serif" font-size="12">Terminal: ssh root@128.199.200.100</text>
+
+  <g font-family="Courier New, Consolas, monospace" font-size="13">
+    <text x="24" y="70" fill="rgb(148, 163, 184)">$ </text>
+    <text x="44" y="70" fill="rgb(248, 250, 252)">ssh -i ~/.ssh/id_ed25519 root@128.199.200.100</text>
+
+    <text x="24" y="96" fill="rgb(148, 163, 184)">The authenticity of host '128.199.200.100 (128.199.200.100)' can't be established.</text>
+    <text x="24" y="118" fill="rgb(148, 163, 184)">ED25519 key fingerprint is SHA256:4yV3R0zB9mKlQ1xT6sP2uV5wX7yZ0aBcDeFgHiJkLmN.</text>
+    <text x="24" y="140" fill="rgb(148, 163, 184)">Are you sure you want to continue connecting (yes/no/[fingerprint])? </text>
+    <text x="590" y="140" fill="rgb(34, 197, 94)">yes</text>
+
+    <text x="24" y="162" fill="rgb(234, 179, 8)">Warning: Permanently added '128.199.200.100' (ED25519) to the list of known hosts.</text>
+
+    <text x="24" y="196" fill="rgb(56, 189, 248)" font-weight="bold">Welcome to Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-105-generic x86_64)</text>
+
+    <text x="24" y="226" fill="rgb(203, 213, 225)"> - Documentation:  https://help.ubuntu.com</text>
+    <text x="24" y="246" fill="rgb(203, 213, 225)"> - Management:     https://landscape.canonical.com</text>
+    <text x="24" y="266" fill="rgb(203, 213, 225)"> - Support:        https://ubuntu.com/pro</text>
+
+    <text x="24" y="300" fill="rgb(148, 163, 184)">  System information as of Sat Oct  3 06:20:15 UTC 2026</text>
+    <text x="24" y="322" fill="rgb(148, 163, 184)">  System load:  0.0               Processes:             95</text>
+    <text x="24" y="342" fill="rgb(148, 163, 184)">  Usage of /:   4.5% of 24.05GB   Users logged in:       0</text>
+    <text x="24" y="362" fill="rgb(148, 163, 184)">  Memory usage: 18%               IPv4 address for eth0: 128.199.200.100</text>
+
+    <text x="24" y="396" fill="rgb(203, 213, 225)">0 updates can be applied immediately.</text>
+    <text x="24" y="426" fill="rgb(148, 163, 184)">Last login: Sat Oct  3 06:19:40 2026 from 14.161.20.55</text>
+
+    <text x="24" y="460" fill="rgb(34, 197, 94)">root@ubuntu-devops-server</text>
+    <text x="228" y="460" fill="rgb(248, 250, 252)">:~ </text>
+    <text x="250" y="460" fill="rgb(56, 189, 248)">uname -a</text>
+    <text x="24" y="484" fill="rgb(203, 213, 225)">Linux ubuntu-devops-server 5.15.0-105-generic x86_64 GNU/Linux</text>
+  </g>
+</svg>
